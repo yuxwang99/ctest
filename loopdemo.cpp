@@ -1,5 +1,7 @@
 ﻿#include <malloc.h>
 #include <stdio.h>
+#include <iostream>
+using namespace std;
 
 int main() {
     char* buf = (char *)malloc(1024 * 1024 * 1024);
@@ -16,6 +18,7 @@ int main() {
  
     free(buf);
 
+    std::cout << "finish\n";
     while (1);
     return 0;
 }
