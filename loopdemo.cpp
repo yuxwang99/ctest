@@ -19,6 +19,6 @@ int main() {
     free(buf);
 
     std::cout << "finish\n";
-    while (1);
+    //while (1);
     return 0;
 }
